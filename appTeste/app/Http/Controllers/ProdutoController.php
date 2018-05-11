@@ -6,8 +6,11 @@ use Illuminate\Http\Request;
 
 class ProdutoController extends Controller
 {
-    public function getIndex()
+    public function index()
     {
-        return "Index de Produto";
+        $produto = ["nome" => "livro"];
+
+        //return view('produto.index', ["nome"=>"livro"]);
+        return view('produto.index', compact('produto'));
     }
 }
