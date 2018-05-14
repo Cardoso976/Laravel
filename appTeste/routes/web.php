@@ -75,3 +75,5 @@ Route::get('home', function (){
     $livros = [];
    return view('home', compact('usuarios', 'livros'));
 });
+
+Route::get('usuario', ['uses' => 'UsuarioController@index', 'as' => 'usario']);
