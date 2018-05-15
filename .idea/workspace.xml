@@ -3,10 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="89261e2e-cc0e-43aa-a567-5f10ff6baecf" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appTeste/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appTeste/database/migrations/2014_10_12_100000_create_password_resets_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appTeste/database/migrations/2018_05_09_183051_create__migration__cliente.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appTeste/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/appTeste/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appTeste/app/Cliente.php" beforeDir="false" afterPath="$PROJECT_DIR$/appTeste/app/Cliente.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appTeste/database/factories/UserFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/appTeste/database/factories/UserFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appTeste/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/appTeste/database/seeds/DatabaseSeeder.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,27 +19,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="2018_05_14_151216_cria_tabela_livros.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/appTeste/database/migrations/2018_05_14_151216_cria_tabela_livros.php">
+      <file leaf-file-name="Cliente.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/appTeste/app/Cliente.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+            <state relative-caret-position="136">
+              <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2018_05_14_181224_cria_tabela_produtos.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/appTeste/database/migrations/2018_05_14_181224_cria_tabela_produtos.php">
+      <file leaf-file-name="Telefone.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/appTeste/app/Telefone.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-92" />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2018_05_14_184157_renomeia_produtos_artigos.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/appTeste/database/migrations/2018_05_14_184157_renomeia_produtos_artigos.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+            <state relative-caret-position="255">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -73,6 +65,15 @@
         <option value="$PROJECT_DIR$/appTeste/database/migrations/2018_05_14_151216_cria_tabela_livros.php" />
         <option value="$PROJECT_DIR$/appTeste/.env" />
         <option value="$PROJECT_DIR$/appTeste/database/migrations/2018_05_14_184157_renomeia_produtos_artigos.php" />
+        <option value="$PROJECT_DIR$/appTeste/database/seeds/DatabaseSeeder.php" />
+        <option value="$PROJECT_DIR$/appTeste/database/seeds/LivrosTableSeeder.php" />
+        <option value="$PROJECT_DIR$/appTeste/database/factories/UserFactory.php" />
+        <option value="$PROJECT_DIR$/appTeste/app/Livro.php" />
+        <option value="$PROJECT_DIR$/appTeste/database/migrations/2018_05_15_173437_cria__tabela__clientes.php" />
+        <option value="$PROJECT_DIR$/appTeste/database/migrations/2018_05_15_173505_cria__tabela__telefones.php" />
+        <option value="$PROJECT_DIR$/appTeste/database/migrations/2018_05_15_180333_adiciona_descricao_telefone_telefones.php" />
+        <option value="$PROJECT_DIR$/appTeste/app/Cliente.php" />
+        <option value="$PROJECT_DIR$/appTeste/app/Telefone.php" />
       </list>
     </option>
   </component>
@@ -166,7 +167,7 @@
       <path value="$PROJECT_DIR$/appTeste/vendor/psr/container" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="6" />
     <option name="y" value="-19" />
     <option name="width" value="1346" />
@@ -195,7 +196,7 @@
               <item name="Iniciando_com_Laravel" type="b2602c69:ProjectViewProjectNode" />
               <item name="Iniciando_com_Laravel" type="462c0819:PsiDirectoryNode" />
               <item name="appTeste" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Iniciando_com_Laravel" type="b2602c69:ProjectViewProjectNode" />
@@ -257,18 +258,19 @@
       <workItem from="1525978801416" duration="5706000" />
       <workItem from="1526037172688" duration="4094000" />
       <workItem from="1526047070568" duration="7305000" />
-      <workItem from="1526295893091" duration="8895000" />
+      <workItem from="1526295893091" duration="9493000" />
+      <workItem from="1526385630766" duration="13683000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34334000" />
+    <option name="totallyTimeSpent" value="48615000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="784" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27525622" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15300146" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32884902" />
@@ -277,7 +279,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32884902" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3213752" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -297,51 +299,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/appTeste/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1275">
-          <caret line="75" column="54" lean-forward="true" selection-start-line="75" selection-start-column="54" selection-end-line="75" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appTeste/app/Http/Controllers/HomeController.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appTeste/resources/views/layout/principal.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="52" lean-forward="true" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appTeste/resources/views/layout/_includes/_navbar.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="33" lean-forward="true" selection-start-column="33" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appTeste/resources/views/layout/_includes/_footer.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="37" selection-start-column="37" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appTeste/resources/views/home.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" column="13" lean-forward="true" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appTeste/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1156">
-          <caret line="68" column="23" lean-forward="true" selection-start-line="68" selection-start-column="23" selection-end-line="68" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/appTeste/app/Http/Controllers/HomeController.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -545,29 +502,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/appTeste/database/migrations/2018_05_09_183051_create__migration__cliente.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appTeste/database/migrations/2014_10_12_100000_create_password_resets_table.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appTeste/database/migrations/2014_10_12_000000_create_users_table.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/appTeste/database/migrations/2018_05_09_183051_create__migration__cliente.php" />
+    <entry file="file://$PROJECT_DIR$/appTeste/database/migrations/2014_10_12_100000_create_password_resets_table.php" />
+    <entry file="file://$PROJECT_DIR$/appTeste/database/migrations/2014_10_12_000000_create_users_table.php" />
     <entry file="file://$PROJECT_DIR$/appTeste/app/Http/Controllers/UsuarioController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="59" selection-start-line="15" selection-start-column="59" selection-end-line="15" selection-end-column="59" />
-          <folding>
-            <element signature="e#40#56#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appTeste/app/Usuario.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -588,22 +529,90 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/appTeste/database/migrations/2018_05_14_151216_cria_tabela_livros.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/appTeste/database/migrations/2018_05_14_181224_cria_tabela_produtos.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-92" />
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/appTeste/database/migrations/2018_05_14_184157_renomeia_produtos_artigos.php">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appTeste/database/seeds/DatabaseSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="46" lean-forward="true" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appTeste/database/seeds/LivrosTableSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+          <caret line="18" column="42" lean-forward="true" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appTeste/database/factories/UserFactory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appTeste/app/Usuario.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appTeste/database/migrations/2018_05_14_151216_cria_tabela_livros.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appTeste/app/Livro.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appTeste/database/migrations/2018_05_15_173437_cria__tabela__clientes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appTeste/database/migrations/2018_05_15_173505_cria__tabela__telefones.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appTeste/database/migrations/2018_05_15_180333_adiciona_descricao_telefone_telefones.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appTeste/app/Cliente.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appTeste/app/Telefone.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
