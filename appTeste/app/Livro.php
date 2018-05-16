@@ -13,4 +13,14 @@ class Livro extends Model
     {
         return $this->all();
     }
+
+    public function tags()
+    {
+        return $this->belongsToMany('App\Tag', 'livros_tags', 'livros_id', 'tags_id');
+    }
+
+    public function addTag(Tag $tag)
+    {
+        return $this->tags()->save($tag);
+    }
 }
